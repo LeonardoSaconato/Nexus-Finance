@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    outline: none;
+  }
+
+  body {
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar img{
+    width: 50px;
+    margin-left: 1rem;
+  }
+  
+  .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: rgb(26, 26, 26);
+    max-height: 70px;
+  }
+  
+  .logo h6{
+    margin-left: 2rem;
+    font-size: 1rem;
+    padding-top: 1.7rem;
+  }
+  
+  .menu-burguer{
+    width: 40px;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar img{
+    width: 40px;
+  }
+  
+  .list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  #toggler,
+  .navbar label{
+    display: none;
+  }
+  
+  .title{
+    margin-top: 2rem;
+  }
+  
+  .receitas{
+    text-transform: uppercase;
+  }
+  
+  .despesas{
+    text-transform: uppercase;
+  }
+  
+  .saldo{
+    text-transform: uppercase;
+  }
+  
+  .incomes{
+    color: #00C9A7;
+    margin-top: 0.5rem;
+  }
+  
+  .expenses{
+    color: #D83121;
+    margin-top: 0.5rem;
+  }
+  
+  .total{
+    margin-top: 0.5rem;
+    color: #cc952e;
+  }
+  
+  .resume {
+    display: flex;
+    padding: 50px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .resume > div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+  }
+  
+  .newItem {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .divDesc, .divType, .divAmount {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .newItem > button {
+    background-color: #cc952e;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 34px;
+    width: 100px;
+    margin-top: 1rem;
+  }
+  
+  input, select {
+    padding: 5px;
+    background-color: #f7f7f7;
+    border-color: rgb(237, 235, 235);
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 6px;
+  }
+  
+  .sub-title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  
+  .divTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  table {
+    width: 98%;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-bottom: 3rem;
+  }
+  
+  th {
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+  }
+  
+  i {
+    font-size: 25px;
+  }
+  
+  .bxs-chevron-up-circle {
+    color: #00C9A7;
+  }
+  
+  .bxs-chevron-down-circle {
+    color: #D83121;
+  }
+  
+  .columnAction {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .columnAction > button {
+    background: transparent;
+    border: none;
+  }
+  
+  .columnAmount {
+    width: 30%;
+  }
+  
+  .columnType {
+    width: 80px;
+    text-align: center;
+  }
+  
+  .contato{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+  }
+  
+  .contato ul li{
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    margin-top: .25rem;
+    font-size: 0.75rem;
+  }
+  
+  .rodape p{
+    font-size: .5rem;
+    text-align: center;
+    margin-top: 2rem;
+  }

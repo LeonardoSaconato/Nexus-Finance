@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus</title>
+    <link rel="icon" type="imagem/png" href="images/icon.png">
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="main-login">
+            <div class="left-login">
+                <h1>Faça Login<br>E acesse nossa Aplicação</h1>
+                <img src="images/astronauta.svg" class="left-login-image" alt="Animação de Astronauta flutuando no espaço, com planetas e meteoros em sua volta.">
+            </div>
+            <div class="right-login">
+                <div class="card-login">
+                <div class="wrapper">
+                    <div class="title-text">
+                    <div class="title login">Login</div>
+                    <div class="title signup">Cadastro</div>
+                    </div>
+                    <div class="form-container">
+                    <div class="slide-controls">
+                        <input type="radio" name="slide" id="login" checked>
+                        <input type="radio" name="slide" id="signup">
+                        <label for="login" class="slide login">Login</label>
+                        <label for="signup" class="slide signup">Cadastre-se</label>
+                        <div class="slider-tab"></div>
+                    </div>
+                    <div class="form-inner">
+                        <form method="POST" action="login.php" class="login">
+							<div class="field">
+								<input type="text" name = "login_email" placeholder="Email" required>
+							</div>
+							<div class="field">
+								<input type="password" name = "login_senha" placeholder="Senha" required>
+							</div>
+							<div class="pass-link"><a href="#">Esqueceu sua senha?</a></div>
+							<div class="field btn">
+								<div class="btn-layer"></div>
+								<input type="submit" value="Login">
+							</div>
+							<div class="signup-link">Não tem cadastro? <a href="">Cadastre se aqui</a></div>
+                        </form>
+                        <form action="cadastro.php" method="POST" class="signup">
+							<div class="field">
+								<input type="text" name = "txt_nome" placeholder="Digite seu Nome" required>
+							</div>
+							<div class="field">
+								<input type="text" name = "email" placeholder="Digite seu Email" required>
+							</div>
+							<div class="field">
+								<input type="password" name = "senha" placeholder="Digite a senha" required>
+							</div>
+							<!-- <div class="field">
+								<input type="password" name = "senha2" placeholder="Confirme a senha" required>
+							</div> -->
+							<div class="field btn">
+								<div class="btn-layer"></div>
+								<input type="submit" value="Cadastrar">
+							</div>
+                        </form>  
+                    </div> 
+                  </div>
+                </div>    
+            </div> 
+        </div>        
+   </div>
+</body>
+<script src="js/login.js"></script>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" type="imagem/png" href="images/icon.png">
+  <link rel="stylesheet" href="app.css">
+  <!--link rel="shortcut icon" href="images/nexus_logo.png" type="image/x-icon"-->
+  <title>Controle de Despesas</title>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="images/nexus_logo.png" alt="logo">
+    <input type="checkbox" id="toggler">
+        <label class="menu-burguer" for="toggler"></label>
+        <div class="menu">
+            <ul class="list">
+                <li><a href="index.html"><img src="images/power (1).png"></a></li>
+            </ul>
+        </div>
+  </nav>
+  <main>
+    <h3 class="title">Controle de despesas</h3>
+    <div class="resume">
+      <div class="receitas">
+        Receitas
+        <span class="incomes">0.00</span>
+      </div>
+      <div class="despesas">
+        Despesas
+        <span class="expenses">0.00</span>
+      </div>
+      <div class="saldo">
+        Saldo
+        <span class="total">0.00</span>
+      </div>
+    </div>
+    <h3 class="sub-title">Adicionar nova transação</h3>
+    <div class="newItem">
+      <div class="divDesc">
+        <label for="desc">Descrição</label>
+        <input type="text" id="desc" />
+      </div>
+      <div class="divAmount">
+        <label for="amount">Valor</label>
+        <input type="number" id="amount" />
+      </div>
+      <div class="divType">
+        <label for="type">Tipo</label>
+        <select id="type">
+          <option>Entrada</option>
+          <option>Saída</option>
+        </select>
+      </div>
+      <button id="btnNew">Incluir</button>
+    </div>
+    <h3 class="sub-title">Transações</h3>
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th class="columnAmount">Valor</th>
+            <th class="columnType">Tipo</th>
+            <th class="columnAction"></th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+  </main>  
+</div>
+  <footer class="rodape">
+  <p>Copyright 2022 - Nexus Finance</p>
+  </footer>
+
+  <script src="js/app_despesas.js"></script>
+</body>
+</html>

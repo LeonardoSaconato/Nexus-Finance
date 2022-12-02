@@ -1,0 +1,11 @@
+CREATE DATABASE Projeto;
+USE Projeto;
+
+CREATE TABLE `Projeto`.`Nexus` (
+  `ID` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(100) NOT NULL,
+  `email` VARCHAR(200) NOT NULL,
+  `senha` VARCHAR(32) NOT NULL,
+  
+  PRIMARY KEY (`ID`));
+

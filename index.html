@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus</title>
+    <link rel="icon" type="imagem/png" href="images/icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link  rel='stylesheet'href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#home">Nex<span><i class="fa-solid fa-rocket"></i></span>s</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">Sobre</a></li>
+                <li><a href="#services" class="menu-btn">Serviços</a></li>
+                <li><a href="#skills" class="menu-btn">Especialidade</a></li>
+                <li><a href="#contact" class="menu-btn">Contato</a></li>
+                <li><a href="login.html" class="menu-btn">APP</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sessao Home -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Olá, bem-vindo(a) a Nexus </div>
+                <div class="text-2">De um UP em suas finanças conosco!</div>
+                <div class="text-3">Acesse nosso APP <span class="typing"></span></div>
+                <a href="login.html">Conheça nossa aplicação</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessao Sobre -->
+    <section class="about" id="about" data-anime="left">
+        <div class="max-width">
+            <h2 class="title">Sobre</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/nexus.png" alt="Logomarca empresa Nexus finance">
+                </div>
+                <div class="column right">
+                    <div class="text">
+                    Olá bem-vindo(a) a Nexus <span class="typing-2"></span></div>
+                    <p>Nexus é uma empresa que atua na área financeira, prestando serviços de consultoria e desenvolvimento de softwares, afim de solucionar os problemas e necessidades dos clientes, por exemplo um software de gestão financeira, a criação de uma API, serviços de consultoria controle e planejamento financeiro.
+                        </p>
+                    <a href="#contact" >Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services" id="services" data-anime="right">
+        <div class="max-width">
+            <h2 class="title">Serviços</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-users-between-lines"></i>
+                        <div class="text">Consultoria</div>
+                        <p>Através de nossa consultoria empresarial podemos ajudar as organizações a identificar problemas e encontrar soluções, estabelecendo uma gestão mais competitiva e ágil, afim de proporcionar um maior desempenho da empresa.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-sharp fa-solid fa-laptop-code"></i>
+                        <div class="text">Soluções tecnológicas</div>
+                        <p>Construímos soluções tecnológicas para sua empresa, minimizando erros e maximizando a eficiência . Utilizando desde a automatização de pequenos processos até a implantação e parametrização dos sistemas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-users-rays"></i>
+                        <div class="text">Soluções de controle</div>
+                        <p>Com nossas soluções de controle, mapeamos os possíveis riscos de procedimentos adotados dentro de uma empresa, com o objetivo de evitar fraudes, erros, ineficiências e crises através de métodos de controle.</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessao Conversor de Moedas-->
+    <section class="converter" data-anime="left">
+        <div class="max-width">
+            <h2 class="title">Conversor de Moedas</h2>
+            <div class="wrapper">
+                <form action="#">
+                  <div class="amount">
+                    <p>Insira o Valor</p>
+                    <input type="text" value="1">
+                  </div>
+                  <div class="drop-list">
+                    <div class="from">
+                      <p>De</p>
+                      <div class="select-box">
+                        <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                        <select> <!--Onde será implementado as opcoes de moedas pelo script --> </select>
+                      </div>
+                    </div>
+                    <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                    <div class="to">
+                      <p>Para</p>
+                      <div class="select-box">
+                        <img src="https://flagcdn.com/48x36/np.png" alt="flag">
+                        <select> <!-- Insercao das bandeiras dos paises --> </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="exchange-rate">Convertendo o valor...</div>
+                  <button>Converter</button>
+                </form>
+              </div>
+        </div>
+    </section>
+
+    <!-- Sessao Skills -->
+    <section class="skills" id="skills" data-anime="right">
+        <div class="max-width">
+            <h2 class="title">Especialidade</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Nosso Time</div>
+                    <p>Contamos com uma equipe composta de profissionais comprometidos em resolver e propor soluções para melhor servir a necessidade de nossos clientes.</p>
+                    <a href="#contact">Mais Informações</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Atendimento e Satisfação dos Clientes</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line ex1"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Proatividade</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line ex2"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Desenvolvimento de Softwares e Soluções</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line ex3"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Crescimento e Segurança Financeira</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line ex4"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Consolidação</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line ex5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portifolio-->
+    <section class="teams" id="teams" data-anime="left">
+        <div class="max-width">
+            <h2 class="title">O que Dizem</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/cliente_lucasd.jpg" alt="Fotografia cliente Lucas Dias Ong 'Buscapet' em seu escritorio, falando ao telefone">
+                        <div class="text">Lucas Dias</div>
+                        <p>ONG "Projeto Buscapet"</p>
+                        <p>Gostaria de agradecer a Nexus por apoiar nossa causa e ainda por cima nos fornecer gratuitamente consultoria e o seu software de gestão financeira, Nexus sempre 10!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/icon_skynet.png" alt="Logomarca empresa de tecnologia SkyNet">
+                        <div class="text">Lucas Medeiros</div>
+                       <p>Empresa "SkyNet"</p>
+                       <p>Excelente atendimento dos profissionais da Nexus, através da consultoria e soluções tecnológicas conseguimos ampliar nossa rede de clientes.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/cliente_leonardo.jpeg" alt="Fotografia cliente Leonardo Saconato, sorrindo e utilizando roupa social">
+                        <div class="text">Leonardo Saconato</div>
+                      <p>"Programador Autônomo"</p>
+                      <p>Super recomendo! A Nexus me auxiliou dando apoio para o melhor controle financeiro do meu empreendimento e como melhor divulgar meus serviços.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/cliente_joses.jpg" alt="Fotografia cliente Jose da Silva, segurando um lustre no mostruario de sua loja">
+                        <div class="text">Jose da Silva</div>
+                        <p>Empresa "JS lustres ltda"</p>
+                        <p>Nexus uma empresa incrível, sempre buscando a melhor solução, tive um crescimento de 52% nas minhas vendas neste mês, graças a consultoria e dicas da Nexus!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/cliente_claudia.jpg" alt="Fotografia cliente Claudia Machado, mulher sorrindo usando trajes sociais, sentada a beira da janela.">
+                        <div class="text">Claudia Machado</div>
+                        <p>Empresa "Glamour Studio"</p>
+                        <p>Sensacional a consultoria financeira da Nexus! Obtive um crescimento de 32% na procura dos meus serviços e através do APP financeiro, estou melhor gerenciando o meu capital.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessao Contato -->
+    <section class="contact" id="contact" data-anime="right">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Fale conosco</div>
+                    <p>Entre em contato através do formulário ao lado, traga suas ideias e projetos, duvidas, orçamentos e soluções, pois estamos sempre à disposição para melhor ajudá-lo(a)!</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Empresa</div>
+                                <div class="sub-title">Nexus</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Endereço</div>
+                                <div class="sub-title">Rua dos Alfeneiros, Nº4 - Vila Prudente-SP</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">neexuscontato@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Entre em contato</div>
+                    <form action="mail.php" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name = "nome_" placeholder="Nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name = "email_" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Assunto" name = "assunto_" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Mensagem" name = "mensagem_" required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Redes Sociais -->
+    <section class="social" id="social" data-anime="left">
+        <div class="max-width">
+            <h2 class="title">Siga-nos em nossas</h2>
+            <div class="social-content">
+                <div class="card">
+                    <div class="box">
+                        <a href="https://www.facebook.com/profile.php?id=100087609542717" target="_blank"><i class="fa-brands fa-facebook"></i>
+                        <div class="text">Facebook</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://www.linkedin.com/company/nexus-finance-ltda/about/?viewAsMember=true" target="_blank"><i class="fa-brands fa-linkedin"></i>
+                        <div class="text">Linkedln</div></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://www.instagram.com/neexus.finance/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i>
+                        <div class="text">Instagram</div></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rodape -->
+    <footer>
+        <span><a href="#home">© Nexus.</a> All Rights Reserved 2022. | | Developed By Nexus Finance.</span>
+    </footer>
+   
+    <script src="https://kit.fontawesome.com/19ecb611c3.js" crossorigin="anonymous"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/country-list.js"></script>
+    <script src="js/app.js"></script> 
+   
+   
+
+</body>
+</html>
