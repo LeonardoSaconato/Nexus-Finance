@@ -23,15 +23,25 @@ Nexus é uma empresa que atua na área financeira, prestando serviços de consul
 
 
 ## Endereço da aplicação
-https...................
 
+https://nexusfinance.000webhostapp.com
 
 
 ## Projetos utilizados como inspiração
 
-* https:/..............
-* https:/..........
-* https:/....
+* https://br.pinterest.com/pin/366973069648898759/
+* https://br.pinterest.com/pin/624452304595611542/
+* https://br.pinterest.com/pin/475340935660594132/
 
 
 ## Outras Observações 
+
+O grupo foi divido em duplas para a realização de cada etapa do trabalho, mas todos tiveram participação em todas as etapas, assim o grupo definiu quais seriam as etapas e quais duplas ficariam responsáveis por cada etapa:
+
+|     DUPLA                                         |             FUNÇÃO            |
+|---------------------------------------------------|-------------------------------|
+|  Bruno Sabec, Thiago Mendonça, Leonardo Saconato  |Elaboração da documentação     |
+|  Leonardo Saconato e  Marcela Souza               |Elaboração do Front-End do site|
+|  Lucas Medeiros e Ricardo Italo Rodrigues         |Elaboração do Back-End do site |  
+
+
